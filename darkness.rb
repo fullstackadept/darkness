@@ -4,40 +4,40 @@
     
 require "java"
 
-include_class java.awt.Font
-include_class java.awt.Point
-include_class java.awt.Color
-include_class javax.swing.JFrame
-include_class javax.swing.JPanel
-include_class javax.swing.JLabel
-include_class javax.swing.JTextField
-include_class javax.swing.JEditorPane
-include_class javax.swing.JScrollPane
-include_class javax.swing.JButton
-include_class javax.swing.ImageIcon
-include_class javax.swing.WindowConstants
-include_class javax.swing.JOptionPane
-include_class javax.swing.UIManager
-include_class javax.swing.SwingUtilities
-include_class javax.swing.KeyStroke
-include_class javax.swing.BorderFactory
-include_class java.awt.event.KeyEvent
-include_class java.awt.Event
-include_class java.awt.Dimension 
-include_class java.awt.FlowLayout
-include_class java.awt.GridBagLayout
-include_class java.awt.GridBagConstraints
-include_class javax.swing.Box
-include_class java.awt.GraphicsEnvironment
-include_class javax.swing.AbstractAction
-include_class java.lang.System
-include_class javax.swing.JEditorPane
-include_class javax.swing.undo.UndoManager
+import java.awt.Font
+import java.awt.Point
+import java.awt.Color
+import javax.swing.JFrame
+import javax.swing.JPanel
+import javax.swing.JLabel
+import javax.swing.JTextField
+import javax.swing.JEditorPane
+import javax.swing.JScrollPane
+import javax.swing.JButton
+import javax.swing.ImageIcon
+import javax.swing.WindowConstants
+import javax.swing.JOptionPane
+import javax.swing.UIManager
+import javax.swing.SwingUtilities
+import javax.swing.KeyStroke
+import javax.swing.BorderFactory
+import java.awt.event.KeyEvent
+import java.awt.Event
+import java.awt.Dimension 
+import java.awt.FlowLayout
+import java.awt.GridBagLayout
+import java.awt.GridBagConstraints
+import javax.swing.Box
+import java.awt.GraphicsEnvironment
+import javax.swing.AbstractAction
+import java.lang.System
+import javax.swing.JEditorPane
+import javax.swing.undo.UndoManager
 #
 # porting gotchas
 #
 # variable namings, method namings - use that_what and not thisWay preferrable. easy to get confused.
-# include_class
+# import
 # java primitives from ruby
 #
 # AbstractAction
